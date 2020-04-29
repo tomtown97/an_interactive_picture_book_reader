@@ -1,0 +1,3 @@
+python VQA_predict.py --image_path="./Data/test/1.jpg" --question="What color is the signal?"
+
+python VQA_predict.py --image_path="./Data/test/book/0012.jpg" --question="What animal is this?"

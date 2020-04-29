@@ -1,0 +1,1 @@
+python OCR.py --image_path="./Data/test/0012.jpg"

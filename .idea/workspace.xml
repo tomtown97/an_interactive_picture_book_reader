@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="550be907-b8d1-46f5-8556-ea32874f8f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AIPBR.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/.ipynb_checkpoints/Automatic_Speech_Recognition-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/ASR_predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/Automatic_Speech_Recognition.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/Data/test/sample-en.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/augmentation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/augmentation/augmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/augmentation/spec_augment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/callback/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/callback/batch_logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/callback/distributed_model_checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/dataset/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/dataset/audio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/dataset/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/dataset/features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/decoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/decoder/decoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/evaluate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/evaluate/activations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/evaluate/distance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/evaluate/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/features/feature_extractor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/features/filter_banks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/features/spectrogram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/load/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/load/load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/load/models/en-deepspeech2-weights-0.1.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/model/deepspeech.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/model/deepspeech2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/pipeline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/pipeline/ctc_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/pipeline/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/text/alphabet-en.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/text/alphabet-pl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/text/alphabet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/utils/consumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/automatic_speech_recognition/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/output.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/record_wav.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ASR/sample-en.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/OCR_predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/example_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/example_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/example_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/pet-dinosaur-book-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0003.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0005.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0008.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0010.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0011.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0012.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0013.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/data/test/book/0016.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/pip.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OCR/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TTS/TTS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TTS/pip.rtf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TTS/voice.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/Data/download_data.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/VQA_predict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/extract_fc7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VQA/vis_lstm_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataset/gaitubao_Screenshot 2020-04-16 at 5.55.46 pm_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataset/test.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useless/ASR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useless/mp3Towav.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/an_interactive_picture_book_reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/an_interactive_picture_book_reader.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ASR.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TTTiWCzwJonPlpmaPrhr0WbVXQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/OCR/images" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/OCR/images" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dataset" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Automatic_Speech_Recognition">
+    <configuration name="Automatic_Speech_Recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="an_interactive_picture_book_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ASR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ASR/ASR_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OCR" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="an_interactive_picture_book_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OCR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/OCR/OCR_predict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rec_unlimited" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="an_interactive_picture_book_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/rec_unlimited.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="an_interactive_picture_book_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OCR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/OCR/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="an_interactive_picture_book_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Automatic_Speech_Recognition" />
+        <item itemvalue="Python.OCR" />
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.rec_unlimited" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="550be907-b8d1-46f5-8556-ea32874f8f5e" name="Default Changelist" comment="" />
+      <created>1573483212935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573483212935</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/VQA/easy-VQA-keras" />
+    </ignored-roots>
+  </component>
+</project>
